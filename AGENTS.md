@@ -28,3 +28,7 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+
+- Weather data is fetched in the browser straight from the free Open-Meteo APIs via `src/lib/weather.ts` (no key, no backend); keep all API calls and unit/format helpers there so components stay simple.
